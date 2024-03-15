@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Application Form</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form-div1">
+            <h1>Job Application Form</h1>
+           
+            <form action="">
+                
+                    <div class="form-block">
+                         <p>Full Name<sup>&#8727;</sup></p>
+                        <input required id="fullName" minlength="3" maxlength="10" type="text" placeholder="Enter your full name..">
+                        <p>Email<sup>&#8727;</sup></p>
+                        <input required type="email" placeholder="Enter your email..">
+                        <p>Applied Role/Position<sup>&#8727;</sup></p>
+                        <select name="" id="role">
+                            <option value="fullstack">Full Stack Developer</option>
+                            <option value="frontend">Frontend Developer</option>
+                            <option value="backend">Backend Developer</option>
+                        </select>
+                        <p>Current Status</p>
+                        <div class="radio-div">
+                            <div>
+                                <input type="radio" name="status" value="employed" id="employed">
+                                <label for="employed">
+                                    Employed
+                                </label>
+                            </div>
+                            <div>
+                                <input type="radio" name="status" value="selfemployed" id="selfemployed">
+                                <label for="selfemployed">
+                                    Self-Employed
+                                </label>
+                            </div>
+                            <div>
+                                <input type="radio" name="status" value="student" id="student">
+                                <label for="student">
+                                    Student
+                                </label>
+                            </div>
+                            <div>
+                                <input type="radio" name="status" value="unemployed" id="unemployed">
+                                <label for="unemployed">
+                                    Unemployed
+                                </label>
+                            </div>
+                            
+                        </div>
+                        <p>Your Skills<sup>&#8727;</sup></p>
+                        <div class="skill-div">
+                            <div>
+                                <input required type="checkbox" name="html" id="html" value="html">
+                                <label for="html">HTML</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="mongo" id="mongo" value="mongo">
+                                <label for="mongo">MONGODB</label>
+                            </div>
+                            <div>
+                                <input required type="checkbox" name="css" id="css" value="css">
+                                <label for="css">CSS</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="javascript" id="javascript" value="javascript">
+                                <label for="javascript">JAVASCRIPT</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="python" id="python" value="python">
+                                <label for="python">PYTHON</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="nodejs" id="nodejs" value="nodejs">
+                                <label for="nodejs">NODEJS</label>
+                            </div>
+                        </div>
+                        <p>Your Availability<sup>&#8727;</sup></p>
+                        <select name="" id="">
+                            <option value="immediate">Immediately</option>
+                            <option value="less5">Less than 5 days</option>
+                            <option value="less10">Less than 10 days</option>
+                        </select>  
+                      <p>Write additional Details</p>
+                    <textarea name="detail" id="" cols="20" rows="3" placeholder="I have 3 years expirence.."></textarea>
+                    </div>
+                   
+                    
+                
+                <div>
+                    <button class="input-btn" type="submit">Submit</button>
+                    <button class="input-btn" type="reset">Reset</button>
+                </div>
+                
+            </form>
+        </div>
+        <div class="form-div2">
+            
+        </div>
+    </div>
+</body>
+</html>

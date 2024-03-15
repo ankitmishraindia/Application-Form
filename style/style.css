@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+body{
+    background-color:orangered;
+    padding: 10px;
+}
+.container{
+    margin: 50px auto;
+    max-width: 800px;
+    display: flex;
+    
+    background-color: white;
+    box-shadow: 0 0 20px blue;
+}
+
+
+
+p{
+    font-weight: 600;
+}
+
+.form-div1{
+    flex-basis: 50%;
+   padding:20px;
+}
+
+h1{
+    text-decoration:underline;
+}
+.form-div2{
+    flex-basis: 50%;
+    background-image: url(../assets/double-exposure-image-business-profit-growth_31965-3022.avif);
+    background-position: center;
+    background-size: cover;
+}
+
+.form-block{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+textarea{
+    resize: none;
+}
+
+input{
+    
+    border: none;
+    border-bottom: 1px solid orangered;
+    
+    outline: none;
+    padding:1px 4px;
+}
+
+input[type=radio],input[type=checkbox]{
+    cursor: pointer;
+}
+
+select{
+    border: none;
+    border-bottom:1px solid orangered;
+   
+    
+}
+
+
+
+.radio-div{
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 5px;
+}
+
+.skill-div{
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 5px;
+}
+
+.input-btn{
+    border-radius: 0;
+    padding: 4px 20px;
+    margin-top: 10px;
+    border:none;
+    background-color: orangered;
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 15px;
+}
+.input-btn:hover{
+    background-color: orange;
+}
+
